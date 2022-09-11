@@ -1,7 +1,7 @@
 def clear_word(word):
     new_word = word
     for letter in word:
-        if not letter.isalpha():
+        if not letter.isalpha() and letter != "-":
             new_word = new_word.replace(letter, '')
     if len(new_word) == 0:
         return None
