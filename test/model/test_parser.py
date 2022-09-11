@@ -1,5 +1,4 @@
-import pytest
-from src.model.train import clear_word, parse_text
+from src.utils.text_parsing import clear_word, parse_text
 
 
 def test_clear_word():
